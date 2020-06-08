@@ -1,0 +1,15 @@
+course : https://www.youtube.com/watch?v=_uQrJ0TkZlc
+status : 3hr 11 mins
+
+GIT tutorial from edureka
+
+numbers = [5, 2, 5, 10, 2, 10, 6]
+print(len(numbers))
+for i in range(len(numbers)):
+    nbr = numbers.count(numbers[i-1])
+    if nbr > 1:
+        numbers.remove(numbers[i-1])
+    print(f"{numbers[i-1]}  {numbers.count(numbers[i-1])}")
+print(numbers)
+
+https://github.com/elysoft/mypython

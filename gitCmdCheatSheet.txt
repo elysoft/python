@@ -1,0 +1,9 @@
+Git Commands
+git init - create a new repo on local pc
+git remote add origin "https://github.com/elysoft/python.git" -- link remote repo to local repo
+git pull origin master -- get all files from remote repo to local repo
+git status -- tells u which files r added to index n r ready to commit
+git add <filename>-- lets u add file to ur index
+git add -A -- to add multiple files
+git commit -m "type ur message here"
+git commit -a -m "type ur message here"-- to commit multiple files
